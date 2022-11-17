@@ -1,0 +1,98 @@
+body{
+    background-image: url("17203517.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+.title{
+    width:100%;
+    height: 25%;
+    text-align: center;
+    font-size:xx-large;
+    border-radius: 25px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("im-honestly-bored-now--cute-laptop-wallpaper-cute-desktop-wallpaper-pink-wallpaper-laptop.png");
+    background-position-y: 280px;
+    background-position-x: 200px;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.comment{
+    font-family: 'Montserrat', sans-serif;
+    font-size:larger;
+}
+.heart {
+    position: relative;
+    top: 200px;
+    left:750px;
+    width: 200px;
+    height: 100px;
+    animation: heartbeat 1s infinite;
+}
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 200px;
+    top: 0;
+    width: 200px;
+    height: 320px;
+    background: lightcoral;
+    -moz-border-radius: 100px 100px 0 0;
+    border-radius: 100px 100px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
