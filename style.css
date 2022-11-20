@@ -1,0 +1,59 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(128, 250, 209);
+    margin: 0
+}
+.titlepart{
+    background-color: rgb(101, 247, 68);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 30px;
+}
+.logo{
+    margin-top: 100px;
+	width: 300px;
+	height: 300px;
+    background-image: url("856c72c52a0be9efbc5315927e1fff85.png");
+    background-size: contain;
+	transform: rotateY(45deg);
+	animation: rotateAnimation 1s linear infinite;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(225deg);}
+}
+.begin{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.start{
+    background-color: rgb(255, 132, 25);
+    border: none;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    cursor: pointer;
+}
+.stop{
+    background-color: rgb(255, 132, 25);
+    border: none;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 30px;  
+    padding-left: 100px;
+    padding-right: 100px;
+    cursor: pointer;
+}
+.end{
+    text-align: center;
+    background-color: white;
+    padding: 2px;
+}
